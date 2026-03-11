@@ -1,0 +1,339 @@
+
+  [32m[1mVITE[22m v6.4.1[39m  [2mready in [0m[1m5961[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.14:[1m5173[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m10:12:59 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/bloxy/Aivon/client/src/main.jsx[22m
+[2m10:12:59 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/bloxy/Aivon/client/src/main.jsx[22m
+[2m10:27:50 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "firebase/app" from "src/lib/firebase/client.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/lib/firebase/client.js[39m:1:32
+[33m  1  |  import { initializeApp } from "firebase/app";
+     |                                 ^
+  2  |  import {
+  3  |    getAuth,[39m
+[2m10:27:50 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "firebase/firestore" from "src/lib/firebase/chats.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/lib/firebase/chats.js[39m:14:9
+[33m  12 |    updateDoc,
+  13 |    where
+  14 |  } from "firebase/firestore";
+     |          ^
+  15 |  import { db } from "./client.js";
+  16 |  [39m
+[2m10:27:50 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "firebase/app" from "src/lib/firebase/client.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/lib/firebase/client.js[39m:1:32
+[33m  1  |  import { initializeApp } from "firebase/app";
+     |                                 ^
+  2  |  import {
+  3  |    getAuth,[39m
+[2m10:27:51 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "@tanstack/react-virtual" from "src/components/chat/MessageList.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/chat/MessageList.jsx[39m:1:31
+[33m  16 |  }
+  17 |  var _s = $RefreshSig$();
+  18 |  import { useVirtualizer } from "@tanstack/react-virtual";
+     |                                  ^
+  19 |  import { useEffect, useMemo, useRef } from "react";
+  20 |  import { MessageItem } from "../message/MessageItem.jsx";[39m
+[2m10:27:51 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "jspdf" from "src/components/settings/SettingsPanel.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/settings/SettingsPanel.jsx[39m:2:22
+[33m  17 |  var _s = $RefreshSig$();
+  18 |  import { useState } from "react";
+  19 |  import { jsPDF } from "jspdf";
+     |                         ^
+  20 |  export function SettingsPanel({
+  21 |    open,[39m
+[2m10:27:51 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "firebase/app" from "src/lib/firebase/client.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/lib/firebase/client.js[39m:1:32
+[33m  1  |  import { initializeApp } from "firebase/app";
+     |                                 ^
+  2  |  import {
+  3  |    getAuth,[39m
+[2m10:27:51 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "remark-gfm" from "src/components/message/MessageItem.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/message/MessageItem.jsx[39m:3:22
+[33m  18 |  import { useMemo } from "react";
+  19 |  import ReactMarkdown from "react-markdown";
+  20 |  import remarkGfm from "remark-gfm";
+     |                         ^
+  21 |  import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+  22 |  import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";[39m
+[2m10:27:51 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@tanstack/react-virtual" from "src/components/chat/MessageList.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/chat/MessageList.jsx[39m:1:31
+[33m  16 |  }
+  17 |  var _s = $RefreshSig$();
+  18 |  import { useVirtualizer } from "@tanstack/react-virtual";
+     |                                  ^
+  19 |  import { useEffect, useMemo, useRef } from "react";
+  20 |  import { MessageItem } from "../message/MessageItem.jsx";[39m
+      at TransformPluginContext._formatLog (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m10:27:51 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "remark-gfm" from "src/components/message/MessageItem.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/message/MessageItem.jsx[39m:3:22
+[33m  18 |  import { useMemo } from "react";
+  19 |  import ReactMarkdown from "react-markdown";
+  20 |  import remarkGfm from "remark-gfm";
+     |                         ^
+  21 |  import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+  22 |  import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";[39m
+[2m10:27:51 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "jspdf" from "src/components/settings/SettingsPanel.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/settings/SettingsPanel.jsx[39m:2:22
+[33m  17 |  var _s = $RefreshSig$();
+  18 |  import { useState } from "react";
+  19 |  import { jsPDF } from "jspdf";
+     |                         ^
+  20 |  export function SettingsPanel({
+  21 |    open,[39m
+      at TransformPluginContext._formatLog (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m10:27:53 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "firebase/app" from "src/lib/firebase/client.js". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/lib/firebase/client.js[39m:1:32
+[33m  1  |  import { initializeApp } from "firebase/app";
+     |                                 ^
+  2  |  import {
+  3  |    getAuth,[39m
+      at TransformPluginContext._formatLog (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at async file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m10:29:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:29:45 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:30:37 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css (resolved id: C:/Users/bloxy/Aivon/client/src/styles/global.css) in C:/Users/bloxy/Aivon/client/src/main.jsx. Does the file exist?
+[2m10:30:39 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "jspdf" from "src/components/settings/SettingsPanel.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/settings/SettingsPanel.jsx[39m:2:22
+[33m  17 |  var _s = $RefreshSig$();
+  18 |  import { useState } from "react";
+  19 |  import { jsPDF } from "jspdf";
+     |                         ^
+  20 |  export function SettingsPanel({
+  21 |    open,[39m
+      at TransformPluginContext._formatLog (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+[2m10:30:39 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "jspdf" from "src/components/settings/SettingsPanel.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/settings/SettingsPanel.jsx[39m:2:22
+[33m  17 |  var _s = $RefreshSig$();
+  18 |  import { useState } from "react";
+  19 |  import { jsPDF } from "jspdf";
+     |                         ^
+  20 |  export function SettingsPanel({
+  21 |    open,[39m
+[2m10:30:39 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@tanstack/react-virtual" from "src/components/chat/MessageList.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/chat/MessageList.jsx[39m:1:31
+[33m  16 |  }
+  17 |  var _s = $RefreshSig$();
+  18 |  import { useVirtualizer } from "@tanstack/react-virtual";
+     |                                  ^
+  19 |  import { useEffect, useMemo, useRef } from "react";
+  20 |  import { MessageItem } from "../message/MessageItem.jsx";[39m
+      at TransformPluginContext._formatLog (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+[2m10:30:39 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "@tanstack/react-virtual" from "src/components/chat/MessageList.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/chat/MessageList.jsx[39m:1:31
+[33m  16 |  }
+  17 |  var _s = $RefreshSig$();
+  18 |  import { useVirtualizer } from "@tanstack/react-virtual";
+     |                                  ^
+  19 |  import { useEffect, useMemo, useRef } from "react";
+  20 |  import { MessageItem } from "../message/MessageItem.jsx";[39m
+[2m10:30:39 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "remark-gfm" from "src/components/message/MessageItem.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/message/MessageItem.jsx[39m:3:22
+[33m  18 |  import { useMemo } from "react";
+  19 |  import ReactMarkdown from "react-markdown";
+  20 |  import remarkGfm from "remark-gfm";
+     |                         ^
+  21 |  import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+  22 |  import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";[39m
+[2m10:31:19 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:31:19 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/styles/global.css[22m
+[2m10:31:29 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/components/sidebar/Sidebar.jsx[22m
+[2m10:31:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:31:41 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:31:47 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:32:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:32:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/components/chat/DebugPanel.jsx[22m
+[2m10:32:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:32:43 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:32:52 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mC:/Users/bloxy/Aivon/client/src/components/message/MessageItem.jsx[22m
+[2m10:33:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:33:08 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:33:21 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/components/input/Composer.jsx[22m
+[2m10:33:24 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:33:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:34:06 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:34:09 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:34:17 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:34:23 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:34:29 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:34:38 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:35:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:35:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:35:38 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:35:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:36:18 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:36:43 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:36:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:37:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:37:27 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:37:39 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:38:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:38:50 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:38:55 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:39:03 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:39:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:39:28 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:39:32 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:39:43 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/app/App.jsx[22m
+[2m10:39:53 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/@fs/C:/Users/bloxy/Aivon/client/src/styles/global.css[22m
+[2m10:43:15 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "firebase/app" from "src/lib/firebase/client.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/lib/firebase/client.js[39m:1:32
+[33m  1  |  import { initializeApp } from "firebase/app";
+     |                                 ^
+  2  |  import {
+  3  |    getAuth,[39m
+[2m10:43:15 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "firebase/app" from "src/lib/firebase/client.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/lib/firebase/client.js[39m:1:32
+[33m  1  |  import { initializeApp } from "firebase/app";
+     |                                 ^
+  2  |  import {
+  3  |    getAuth,[39m
+[2m10:43:15 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "firebase/firestore" from "src/lib/firebase/chats.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/lib/firebase/chats.js[39m:14:9
+[33m  12 |    updateDoc,
+  13 |    where
+  14 |  } from "firebase/firestore";
+     |          ^
+  15 |  import { db } from "./client.js";
+  16 |  [39m
+[2m10:43:15 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "firebase/app" from "src/lib/firebase/client.js". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/lib/firebase/client.js[39m:1:32
+[33m  1  |  import { initializeApp } from "firebase/app";
+     |                                 ^
+  2  |  import {
+  3  |    getAuth,[39m
+[2m10:43:15 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "jspdf" from "src/components/settings/SettingsPanel.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/settings/SettingsPanel.jsx[39m:2:22
+[33m  17 |  var _s = $RefreshSig$();
+  18 |  import { useState } from "react";
+  19 |  import { jsPDF } from "jspdf";
+     |                         ^
+  20 |  export function SettingsPanel({
+  21 |    open,[39m
+[2m10:43:15 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "@tanstack/react-virtual" from "src/components/chat/MessageList.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/chat/MessageList.jsx[39m:1:31
+[33m  16 |  }
+  17 |  var _s = $RefreshSig$();
+  18 |  import { useVirtualizer } from "@tanstack/react-virtual";
+     |                                  ^
+  19 |  import { useEffect, useMemo, useRef } from "react";
+  20 |  import { MessageItem } from "../message/MessageItem.jsx";[39m
+[2m10:43:16 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "remark-gfm" from "src/components/message/MessageItem.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/message/MessageItem.jsx[39m:3:22
+[33m  18 |  import { useMemo } from "react";
+  19 |  import ReactMarkdown from "react-markdown";
+  20 |  import remarkGfm from "remark-gfm";
+     |                         ^
+  21 |  import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+  22 |  import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";[39m
+[2m10:43:22 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@tanstack/react-virtual" from "src/components/chat/MessageList.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/chat/MessageList.jsx[39m:1:31
+[33m  16 |  }
+  17 |  var _s = $RefreshSig$();
+  18 |  import { useVirtualizer } from "@tanstack/react-virtual";
+     |                                  ^
+  19 |  import { useEffect, useMemo, useRef } from "react";
+  20 |  import { MessageItem } from "../message/MessageItem.jsx";[39m
+      at TransformPluginContext._formatLog (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+[2m10:43:23 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "remark-gfm" from "src/components/message/MessageItem.jsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/message/MessageItem.jsx[39m:3:22
+[33m  18 |  import { useMemo } from "react";
+  19 |  import ReactMarkdown from "react-markdown";
+  20 |  import remarkGfm from "remark-gfm";
+     |                         ^
+  21 |  import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+  22 |  import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";[39m
+[2m10:43:25 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "jspdf" from "src/components/settings/SettingsPanel.jsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36mC:/Users/bloxy/Aivon/client/src/components/settings/SettingsPanel.jsx[39m:2:22
+[33m  17 |  var _s = $RefreshSig$();
+  18 |  import { useState } from "react";
+  19 |  import { jsPDF } from "jspdf";
+     |                         ^
+  20 |  export function SettingsPanel({
+  21 |    open,[39m
+      at TransformPluginContext._formatLog (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41)
+      at TransformPluginContext.error (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16)
+      at normalizeUrl (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40504:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40623:37
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40550:7)
+      at async EnvironmentPluginContainer.transform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///c:/Users/bloxy/Aivon/client/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)

@@ -1,0 +1,74 @@
+services:
+  - type: web
+    name: aivon-api
+    env: node
+    rootDir: server
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm run start
+    disk:
+      name: aivon-data
+      mountPath: /opt/render/project/src/server/data
+      sizeGB: 1
+    envVars:
+      - key: PORT
+        value: 8787
+      - key: CLIENT_URL
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: MODEL_PLANNER
+        value: gemini-2.5-flash
+      - key: MODEL_RESPONDER
+        value: gemini-2.5-flash
+      - key: APP_ACCESS_PASSWORD
+        sync: false
+      - key: ACCESS_TOKEN_SECRET
+        sync: false
+      - key: AUTH_TOKEN_TTL_MIN
+        value: 1440
+      - key: DEFAULT_TOOLS_ENABLED
+        value: "true"
+      - key: DEFAULT_MEMORY_ENABLED
+        value: "false"
+      - key: STREAMING_ENABLED
+        value: "true"
+      - key: TOOLS_ENABLED
+        value: "true"
+      - key: MEMORY_ENABLED
+        value: "true"
+      - key: TOOL_MAX_CALLS_PER_RUN
+        value: "3"
+      - key: TOOL_MAX_PARALLEL
+        value: "2"
+      - key: TOOL_TIMEOUT_MS
+        value: "8000"
+      - key: SEARCH_CACHE_TTL
+        value: "300"
+      - key: FETCH_CACHE_TTL
+        value: "300"
+
+  - type: static_site
+    name: aivon-web
+    rootDir: client
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_AI_API_BASE
+        sync: false
+      - key: VITE_AI_AUTH_MODE
+        value: beta_password
+      - key: VITE_AI_PASSWORD
+        sync: false
+      - key: VITE_FIREBASE_API_KEY
+        sync: false
+      - key: VITE_FIREBASE_AUTH_DOMAIN
+        sync: false
+      - key: VITE_FIREBASE_PROJECT_ID
+        sync: false
+      - key: VITE_FIREBASE_STORAGE_BUCKET
+        sync: false
+      - key: VITE_FIREBASE_MESSAGING_SENDER_ID
+        sync: false
+      - key: VITE_FIREBASE_APP_ID
+        sync: false
